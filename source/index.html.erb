@@ -1,27 +1,7 @@
 ---
 title: Le Wagon - Middleman
 ---
-<div class="banner">
-  <div class="banner-content">
-    <div class="home-content">
-      <h1>WELCOME HOME</h1>
-      <p>Book unique homes and experience a city like a local.</p>
-      <div class= 'form-inline'>
-        <input type="text" id="where" class="form-control" placeholder="Where?">
-        <input type="number" id="when" class="form-control" placeholder="When?">
-        <select id="guests" class="form-control">
-         <option value="">1 guest</option>
-         <option value="">2 guests</option>
-         <option value="">3 guests</option>
-         <option value="">4 guests</option>
-        </select>
-        <input type="submit" value="Search" class="btn btn-primary">
-      </div>
-     </div>
-   </ul>
- </div>
-</div>
-
+<%= partial "layouts/banner" %>
 
 <div class="container" id="home-flats">
   <h2 class="text-center">Recent flats</h2>
