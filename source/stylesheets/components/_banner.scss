@@ -1,0 +1,28 @@
+.banner {
+  background-image:
+  /* Transparent gradient above */
+  linear-gradient(-220deg, rgba(180,180,190,0.1) 32%, rgba(50,50,50,0.3) 10%),
+  /* Then image below */
+  url('../../../images/travel.jpg');
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  background-size: cover;
+  height: 80vh;
+  line-height: 40px;
+}
+
+.banner h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 25px;
+  font-weight: normal;
+  color: white;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
